@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/iot-one/.oh-my-zsh"
+  export ZSH="/home/wecalderonc/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -72,7 +72,8 @@ plugins=(
   common-aliases
   colored-man-pages
   zsh-autosuggestions
-
+  docker
+  docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,5 +106,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/iot-one/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+source /home/wecalderonc/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
