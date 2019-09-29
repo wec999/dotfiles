@@ -106,3 +106,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /home/iot-one/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
