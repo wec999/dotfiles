@@ -108,3 +108,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 source /home/wecalderonc/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
